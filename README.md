@@ -171,14 +171,15 @@ Il GDR **Totem** e le sue regole sono proprietà dei rispettivi autori.
 
 - **Sistema Foundry VTT**: Sviluppato per la quickstart di Totem
 - **Foundry VTT**: [https://foundryvtt.com/](https://foundryvtt.com/)
-- **Totem - The Spirits' RPG**: [Link al GDR originale]
+- **Totem - The Spirits' RPG**: [https://officinameningi.it/totem-il-gdr-degli-spiriti/]
 
 ---
 
 ## 📧 Supporto
 
-Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatta [il tuo contatto].
+Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatta [https://linktr.ee/sweetbloodsadventures].
 
 ---
 
 **Buon gioco con Totem! 🎲✨**
+
