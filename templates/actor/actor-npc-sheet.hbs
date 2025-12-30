@@ -1,0 +1,21 @@
+<form class="{{cssClass}} spirit-sheet flexcol" autocomplete="off">
+  <div class="sheet-background">
+    {{!-- Immagine Personaggio --}}
+    <img class="profile-img-spirito" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+    
+    {{!-- Nome --}}
+    <input name="name" type="text" value="{{actor.name}}" placeholder="" class="field-nome-spirito"/>
+    
+    {{!-- Descrizione --}}
+    <textarea name="system.descrizione" placeholder="" class="field-descrizione-spirito">{{system.descrizione}}</textarea>
+    
+    {{!-- Archetipo di Spirito --}}
+    <textarea name="system.archetipoSpirito" placeholder="" class="field-archetipo-spirito">{{system.archetipoSpirito}}</textarea>
+    
+    {{!-- Storia --}}
+    <textarea name="system.storia" placeholder="" class="field-storia-spirito">{{system.storia}}</textarea>
+    
+    {{!-- Note del Narratore --}}
+    <textarea name="system.noteNarratore" placeholder="" class="field-note-narratore">{{system.noteNarratore}}</textarea>
+  </div>
+</form>

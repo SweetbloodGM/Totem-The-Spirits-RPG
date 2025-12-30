@@ -1,0 +1,25 @@
+<form class="{{cssClass}} totem-sheet seeker-sheet" autocomplete="off">
+  <div class="sheet-background">
+    <div class="sheet-fields">
+      <input type="text" name="name" value="{{actor.name}}" class="field-nome" placeholder="Nome" />
+      <textarea name="system.background" class="field-background">{{system.background}}</textarea>
+      <select name="system.archetipo" class="field-archetipo">
+        <option value="">Seleziona Archetipo</option>
+        <option value="Martire" {{#if (eq system.archetipo "Martire")}}selected{{/if}}>Martire</option>
+        <option value="Medium" {{#if (eq system.archetipo "Medium")}}selected{{/if}}>Medium</option>
+        <option value="Poeta" {{#if (eq system.archetipo "Poeta")}}selected{{/if}}>Poeta</option>
+        <option value="Veterano" {{#if (eq system.archetipo "Veterano")}}selected{{/if}}>Veterano</option>
+        <option value="Esorcista" {{#if (eq system.archetipo "Esorcista")}}selected{{/if}}>Esorcista</option>
+      </select>
+      <textarea name="system.relazioneLuogo" class="field-relazione">{{system.relazioneLuogo}}</textarea>
+      <textarea name="system.scopoRicerca" class="field-scopo">{{system.scopoRicerca}}</textarea>
+      <textarea name="system.oggetti" class="field-oggetti">{{system.oggetti}}</textarea>
+      <textarea name="system.trauma1" class="field-trauma1">{{system.trauma1}}</textarea>
+      <textarea name="system.trauma2" class="field-trauma2">{{system.trauma2}}</textarea>
+      <textarea name="system.trauma3" class="field-trauma3">{{system.trauma3}}</textarea>
+      <textarea name="system.nodo1" class="field-nodo1">{{system.nodo1}}</textarea>
+      <textarea name="system.nodo2" class="field-nodo2">{{system.nodo2}}</textarea>
+      <textarea name="system.nodo3" class="field-nodo3">{{system.nodo3}}</textarea>
+    </div>
+  </div>
+</form>
