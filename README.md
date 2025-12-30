@@ -1,7 +1,8 @@
 # Totem - The Spirits' RPG
 ## Sistema per Foundry Virtual Tabletop
 
-Un sistema narrativo basato sul lancio della moneta e sui traumi, ispirato alle regole della Quickstart di Totem.
+Totem è un GDR Horror narrativo dalle regole semplici e che ti farà rivivere le inquietanti atmosfere ispirate ai classici del tema spiritico, da Poltergeist a Paranormal Activity, passando per The Ring, Insidious, Silent Hill, L’esorcista e molti altri capolavori da incubo.
+Totem condurrà il tuo gruppo di Cercatori in un viaggio da brivido nel mondo soprannaturale, alla ricerca di un contatto con le entità che popolano altri piani della realtà. Vivrai l’esperienza di visitare case infestate, esorcizzare demoni, interrogare una presenza con la tavola degli spiriti e attraversare la soglia più estrema del limbo!.
 
 ---
 
@@ -73,6 +74,7 @@ Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatt
 ---
 
 **Buon gioco con Totem! 🎲✨**
+
 
 
 
