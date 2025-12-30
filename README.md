@@ -8,7 +8,6 @@ Un sistema narrativo basato sul lancio della moneta e sui traumi, ispirato alle 
 ## 📋 Caratteristiche
 
 - **Sistema di risoluzione semplice**: Lancia la moneta (Testa = Successo, Croce = Fallimento)
-- **Gestione traumi**: I personaggi accumulano traumi invece di statistiche tradizionali
 - **Schede personaggio intuitive**: Interfaccia pulita con tabs per traumi, oggetti e abilità
 - **Bilingue**: Supporto completo per Italiano e Inglese
 - **Foundry VTT v13**: Compatibile con l'ultima versione di Foundry
@@ -62,8 +61,8 @@ Il GDR **Totem** e le sue regole sono proprietà dei rispettivi autori.
 ## 👥 Crediti
 
 - **Sistema Foundry VTT**: Sviluppato per la quickstart di Totem
-- **Foundry VTT**: [https://foundryvtt.com/](https://foundryvtt.com/)
-- **Totem - The Spirits' RPG**: [https://officinameningi.it/totem-il-gdr-degli-spiriti/]
+- **Foundry VTT**: https://foundryvtt.com/
+- **Totem - The Spirits' RPG**: https://officinameningi.it/totem-il-gdr-degli-spiriti/
 
 ---
 
@@ -74,6 +73,7 @@ Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatt
 ---
 
 **Buon gioco con Totem! 🎲✨**
+
 
 
 
