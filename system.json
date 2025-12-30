@@ -39,9 +39,10 @@
     }
   ],
   "url": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG",
-  "manifest": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/download/latest/system.json",
-  "download": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/download/latest/Totem-The-Spirits-RPG-main.zip"
+  "manifest": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/system.json",
+  "download": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/latest/Totem-The-Spirits-RPG-main.zip"
 }
+
 
 
 
