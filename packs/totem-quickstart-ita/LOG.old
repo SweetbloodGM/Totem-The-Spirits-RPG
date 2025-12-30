@@ -1,0 +1,7 @@
+2025/12/21-23:24:29.962 21bc Recovering log #87
+2025/12/21-23:24:29.969 21bc Delete type=0 #87
+2025/12/21-23:24:29.969 21bc Delete type=3 #86
+2025/12/22-00:35:22.936 2dbc Level-0 table #91: started
+2025/12/22-00:35:22.936 2dbc Level-0 table #91: 0 bytes OK
+2025/12/22-00:35:22.937 2dbc Delete type=0 #89
+2025/12/22-00:35:22.943 2dbc Manual compaction at level-0 from '!journal!j0csh3QDS3M7UQCE' @ 72057594037927935 : 1 .. '!journal.pages!j0csh3QDS3M7UQCE.y63766dxoc6t87Y4' @ 0 : 0; will stop at (end)
