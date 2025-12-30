@@ -69,11 +69,12 @@ Il GDR **Totem** e le sue regole sono proprietà dei rispettivi autori.
 
 ## 📧 Supporto
 
-Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatta [https://linktr.ee/sweetbloodsadventures].
+Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatta https://linktr.ee/sweetbloodsadventures.
 
 ---
 
 **Buon gioco con Totem! 🎲✨**
+
 
 
 
