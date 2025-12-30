@@ -1,0 +1,9 @@
+{
+  "TYPES.Actor.character": "Seeker",
+  "TYPES.Actor.npc": "Spirit",
+  
+  "TOTEM.CoinFlip": "Coin Flip",
+  "TOTEM.FlipCoin": "Flip Coin",
+  
+  "TOTEM.SheetLabels.Actor": "Totem Actor Sheet"
+}
