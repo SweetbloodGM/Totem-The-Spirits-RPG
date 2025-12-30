@@ -1,0 +1,561 @@
+/* ============================================
+   TOTEM RPG SYSTEM - CHARACTER SHEET STYLES
+   Dark theme following PDF design
+   ============================================ */
+
+/* Global Background */
+body {
+  background: #000 url('../assets/background.webp') center center / cover no-repeat fixed !important;
+}
+
+#board {
+  background: url('../assets/background.webp') center center / cover no-repeat !important;
+}
+
+/* Global Styles */
+.totem {
+  font-family: "EB Garamond", "Garamond", serif;
+}
+
+.totem.sheet {
+  background: #0a0a0a;
+  color: #e0e0e0;
+}
+
+.totem.window-app .window-content {
+  background: #0a0a0a;
+  padding: 0;
+}
+
+.totem.window-app .window-header {
+  background: #000;
+  border-bottom: 1px solid #0b0b0b;
+  color: #e0e0e0;
+}
+
+.totem.window-app .window-header .window-title {
+  color: #f0f0f0;
+}
+
+.totem.window-app .window-header .header-button {
+  color: #cfcfcf;
+}
+
+/* Character Sheet - Seeker Sheet */
+.seeker-sheet {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.seeker-sheet .sheet-background {
+  position: relative;
+  width: 612px;
+  height: 859px;
+  margin: 0 auto;
+  background: url('../assets/black sheet.webp') center center / contain no-repeat;
+}
+
+.seeker-sheet .sheet-fields {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.seeker-sheet input,
+.seeker-sheet textarea,
+.seeker-sheet select {
+  position: absolute;
+  background: #fff;
+  border: none;
+  color: #000;
+  font-family: "EB Garamond", "Garamond", serif;
+  font-size: 14px;
+  resize: none;
+  padding: 4px;
+}
+
+.seeker-sheet input:focus,
+.seeker-sheet textarea:focus,
+.seeker-sheet select:focus {
+  outline: 1px solid rgba(100, 100, 100, 0.3);
+  background: #fff;
+}
+
+.field-nome {
+  top: 125px;
+  left: 130px;
+  width: 360px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.field-background {
+  top: 183px;
+  left: 90px;
+  width: 200px;
+  height: 60px;
+}
+
+.field-archetipo {
+  top: 183px;
+  left: 320px;
+  width: 210px;
+  height: 60px;
+  font-size: 24px !important;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  line-height: 60px;
+}
+
+.field-archetipo option {
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+}
+
+.field-relazione {
+  top: 290px;
+  left: 90px;
+  width: 440px;
+  height: 70px;
+}
+
+.field-scopo {
+  top: 385px;
+  left: 90px;
+  width: 440px;
+  height: 70px;
+}
+
+.field-oggetti {
+  top: 480px;
+  left: 90px;
+  width: 440px;
+  height: 70px;
+}
+
+.field-trauma1 {
+  top: 590px;
+  left: 50px;
+  width: 150px;
+  height: 90px;
+}
+
+.field-trauma2 {
+  top: 590px;
+  left: 235px;
+  width: 150px;
+  height: 90px;
+}
+
+.field-trauma3 {
+  top: 590px;
+  left: 418px;
+  width: 150px;
+  height: 90px;
+}
+
+.field-nodo1 {
+  top: 720px;
+  left: 50px;
+  width: 150px;
+  height: 90px;
+}
+
+.field-nodo2 {
+  top: 720px;
+  left: 233px;
+  width: 150px;
+  height: 90px;
+}
+
+.field-nodo3 {
+  top: 720px;
+  left: 418px;
+  width: 150px;
+  height: 90px;
+}
+
+/* Floating coin flip widget button */
+#totem-coin-widget {
+  position: fixed;
+  top: 20px;
+  right: 380px;
+  width: 91px;
+  height: 91px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #444;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: right 0.3s ease, transform 0.2s ease;
+}
+
+#totem-coin-widget:hover {
+  transform: scale(1.1);
+  border-color: #666;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
+}
+
+#totem-coin-widget img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Spirit Sheet Styles */
+.spirit-sheet {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.spirit-sheet .sheet-background {
+  position: relative;
+  width: 612px;
+  height: 859px;
+  margin: 0 auto;
+  background: url('../assets/spirit_sheet.webp') top center / 612px 859px no-repeat;
+}
+
+.spirit-sheet input,
+.spirit-sheet textarea {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-family: "EB Garamond", "Garamond", serif;
+  font-size: 14px;
+  resize: none;
+}
+
+.spirit-sheet input:focus,
+.spirit-sheet textarea:focus {
+  outline: 2px solid #8b7355;
+  border-color: #8b7355;
+}
+
+/* Nome dello Spirito */
+.field-nome-spirito {
+  top: 126px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 28px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Descrizione */
+.field-descrizione-spirito {
+  top: 173px;
+  left: 68px;
+  width: 222px;
+  height: 65px;
+  font-size: 14px;
+}
+
+/* Archetipo di Spirito */
+.field-archetipo-spirito {
+  top: 173px;
+  left: 314px;
+  width: 222px;
+  height: 65px;
+  font-size: 14px;
+}
+
+/* Storia */
+.field-storia-spirito {
+  top: 276px;
+  left: 83px;
+  width: 445px;
+  height: 246px;
+  font-size: 14px;
+}
+
+/* Note del Narratore */
+.field-note-narratore {
+  top: 575px;
+  left: 50px;
+  width: 512px;
+  height: 215px;
+  font-size: 14px;
+}
+/* Immagine Profilo Spirito */
+.spirit-sheet .profile-img-spirito {
+  position: absolute;
+  top: 5px;
+  right: 505px;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #4e3961;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.spirit-sheet .profile-img-spirito:hover {
+  transform: scale(1.05);
+  border-color: #6b5a45;
+}
+
+/* Scrollbar */
+.totem ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.totem ::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+.totem ::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+.totem ::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Chat Cards */
+.totem.chat-card {
+  background: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: "EB Garamond", "Garamond", serif;
+  font-size: 12px;
+}
+
+.totem.chat-card .card-header {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+  padding: 10px 15px;
+  border-bottom: 1px solid #444;
+  color: #fff;
+  font-weight: 700;
+}
+
+.coin-chat-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.totem.chat-card .card-header h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.totem.chat-card .card-content {
+  padding: 12px 15px;
+  color: #ddd;
+  font-size: 12px;
+}
+
+/* Coin flip result card */
+.totem-coin-flip {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.coin-result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.coin-result-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+.coin-result-text {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-align: center;
+  font-family: "EB Garamond", "Garamond", serif;
+}
+
+.coin-result-card.success .coin-result-text {
+  color: #6fa86f;
+}
+
+.coin-result-card.failure .coin-result-text {
+  color: #c77;
+}
+
+/* Token HUD - Hide target, combat state, and movement controls */
+.control-icon[data-action="target"],
+.control-icon[data-action="combat"],
+.control-icon.effects {
+  display: none !important;
+}
+
+/* Custom Totem Dice Tray */
+.totem-dice-tray {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.totem-dice-tray * {
+  pointer-events: auto;
+}
+
+.totem-dice-tray .tray-row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  width: 100%;
+}
+
+.totem-dice-tray .dice-btn {
+  flex: 1;
+  padding: 6px 4px;
+  background: linear-gradient(135deg, #3a3a3a 0%, #1a1a1a 100%);
+  border: 1px solid #555;
+  border-radius: 3px;
+  color: #ddd;
+  font-family: "Signika", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+  pointer-events: auto;
+}
+
+.totem-dice-tray .dice-btn:hover {
+  background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+  border-color: #777;
+  color: #fff;
+}
+
+.totem-dice-tray .dice-btn.selected {
+  background: linear-gradient(135deg, #5a5a5a 0%, #3a3a3a 100%);
+  border-color: #999;
+  transform: scale(0.95);
+}
+
+.totem-dice-tray .modifier-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 3px;
+  color: #ddd;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+  pointer-events: auto;
+}
+
+.totem-dice-tray .modifier-btn:hover {
+  background: #3a3a3a;
+  border-color: #777;
+  color: #fff;
+}
+
+.totem-dice-tray .modifier-value {
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  background: #1a1a1a;
+  border: 1px solid #555;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+  cursor: default;
+}
+
+.totem-dice-tray .roll-btn {
+  flex: 1;
+  padding: 6px 12px;
+  margin-left: 8px;
+  background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: #e0e0e0;
+  font-family: "Signika", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+  pointer-events: auto;
+}
+
+.totem-dice-tray .roll-btn:hover {
+  background: linear-gradient(135deg, #5a5a5a 0%, #3a3a3a 100%);
+  border-color: #888;
+  color: #fff;
+}
+
+.totem-dice-tray .coin-flip-btn {
+  width: 100%;
+  padding: 8px;
+  background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: #e0e0e0;
+  font-family: "Signika", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  pointer-events: auto;
+}
+
+.totem-dice-tray .coin-flip-btn:hover {
+  background: linear-gradient(135deg, #5a5a5a 0%, #3a3a3a 100%);
+  border-color: #888;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.totem-dice-tray .coin-flip-btn i {
+  font-size: 14px;
+}
+
+/* Pause overlay: fall back to Foundry default (no custom image or forced display) */
