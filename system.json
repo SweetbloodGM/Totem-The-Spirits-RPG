@@ -38,7 +38,8 @@
       "url": "systems/totem/assets/pause.webp"
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/blob/main/system.json",
+  "manifest": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/blob/main/system.json",
+  "download": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/blob/main/system.zip"
 }
+
