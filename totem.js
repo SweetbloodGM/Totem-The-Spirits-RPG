@@ -278,8 +278,8 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addTexture("totem_coin", {
     name: "Totem Coin",
     composite: "source-over",
-    source: "systems/totem/assets/yes_coin.png",
-    bump: "systems/totem/assets/yes_coin.png"
+    source: "systems/totem/assets/yes_coin.webp",
+    bump: "systems/totem/assets/yes_coin.webp"
   });
   
   // Set custom coin appearance
