@@ -1,10 +1,10 @@
-/* Logo de Pausa Cambiado y Titilante*/
+/* Logo di pausa modificato e pulsante */
 
 img.fa-spin {
-    width: 150px; /* Ajusta el tamaño */
+  width: 150px; /* Regola la dimensione */
     height: 150px;
-    animation: pulsate 3s infinite ease-in-out, none !important; /* Añade el parpadeo */
-    opacity: 0.75; /* Transparencia inicial */
+  animation: pulsate 3s infinite ease-in-out, none !important; /* Aggiunge l'effetto pulsante */
+    opacity: 0.75; /* Trasparenza iniziale */
   }
   
   @keyframes pulsate {
