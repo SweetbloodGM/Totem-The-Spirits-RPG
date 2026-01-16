@@ -49,6 +49,7 @@ https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/download/v1.0/sys
 ## 🔧 Personalizzazione
 
  ### È consigliata l'installazione del modulo Dice so Nice per avere il lancio della moneta in maniera realistica
+ ### Nel sistema è presente un Dice Tray nativo con lancio di moneta integrato
 ---
 
 ## 📜 Licenza
@@ -74,6 +75,7 @@ Per bug, suggerimenti o domande, apri un issue sulla repository GitHub o contatt
 ---
 
 **Buon gioco con Totem! 🎲✨**
+
 
 
 
