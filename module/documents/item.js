@@ -10,7 +10,7 @@ export class TotemItem extends Item {
     // Set default image for items if not specified
     if (!data.img) {
       const updates = {
-        img: "systems/totem/assets/img1.png"
+        img: "systems/totem/assets/img1.webp"
       };
       this.updateSource(updates);
     }
@@ -21,3 +21,4 @@ export class TotemItem extends Item {
     super.prepareData();
   }
 }
+
