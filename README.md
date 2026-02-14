@@ -52,7 +52,7 @@ Totem will lead your group of Seekers on a thrilling journey into the supernatur
 
 Puoi installare Totem direttamente da Foundry usando questo manifest URL: - You can install Totem directly from Foundry using this manifest URL:
 ```
-https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/download/v1.0/system.json
+https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/download/latest/system.json
 ```
 
 ---
@@ -102,5 +102,6 @@ For bugs, suggestions, or questions, open an issue on the GitHub repository or c
 ---
 
 **Buon gioco con Totem! 🎲✨** - Enjoy playing Totem! 🎲✨**
+
 
 
