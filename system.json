@@ -4,6 +4,8 @@
   "description": "A narrative RPG system based on coin flips and traumas, inspired by the Totem Quickstart rules.",
   "version": "1.0.0",
   "authors": [
+    { "name": "Atropo Kelevra" }
+    { "name": "Valentino Sergi" }
     { "name": "Sweetblood_GM" }
   ],
   "compatibility": {
@@ -42,6 +44,7 @@
   "manifest": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/system.json",
   "download": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/Totem-The-Spirits-RPG-main.zip"
 }
+
 
 
 
