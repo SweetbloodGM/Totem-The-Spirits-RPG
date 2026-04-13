@@ -1,0 +1,17 @@
+{
+  "name": "totem",
+  "version": "1.0.0",
+  "description": "Totem è un GDR Horror narrativo dalle regole semplici e che ti farà rivivere le inquietanti atmosfere ispirate ai classici del tema spiritico, da Poltergeist a Paranormal Activity, passando per The Ring, Insidious, Silent Hill, L’esorcista e molti altri capolavori da incubo.\r Totem is a narrative horror RPG with simple rules that will bring back the unsettling atmosphere inspired by classic spirit-themed works—from Poltergeist to Paranormal Activity, from The Ring and Insidious to Silent Hill, The Exorcist, and many other nightmare masterpieces.",
+  "main": "totem.js",
+  "dependencies": {
+    "level": "^10.0.0",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.4.296"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,30 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "character": {
+      "background": "",
+      "archetipo": "",
+      "relazioneLuogo": "",
+      "scopoRicerca": "",
+      "oggetti": "",
+      "trauma1": "",
+      "trauma2": "",
+      "trauma3": "",
+      "nodo1": "",
+      "nodo2": "",
+      "nodo3": ""
+    },
+    "npc": {
+      "descrizione": "",
+      "archetipoSpirito": "",
+      "storia": "",
+      "noteNarratore": ""
+    }
+  },
+  "Item": {
+    "types": ["item"],
+    "item": {
+      "description": ""
+    }
+  }
+}

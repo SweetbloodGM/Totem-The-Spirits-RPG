@@ -1,0 +1,9 @@
+{
+  "TYPES.Actor.character": "Cercatore",
+  "TYPES.Actor.npc": "Spirito",
+  
+  "TOTEM.CoinFlip": "Lancio della Moneta",
+  "TOTEM.FlipCoin": "Lancia la Moneta",
+  
+  "TOTEM.SheetLabels.Actor": "Scheda Personaggio Totem"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "totem",
+  "title": "Totem - The Spirits' RPG",
+  "description": "A narrative RPG system based on coin flips and traumas, inspired by the Totem Quickstart rules.",
+  "version": "2.0",
+  "authors": [
+    { "name": "Sweetblood_GM" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "esmodules": [
+    "totem.js",
+    "js/pause-customizer.js"
+  ],
+  "styles": [
+    "styles/totem.css",
+    "styles/pause-customizer.css"
+  ],
+  "packs": [
+    {
+      "label": "Totem Quickstart (ITA)",
+      "name": "totem-quickstart-ita",
+      "path": "packs/totem-quickstart-ita",
+      "type": "JournalEntry",
+      "system": "totem"
+    },
+    {
+      "label": "Totem Quickstart (EN)",
+      "name": "totem-quickstart-en",
+      "path": "packs/totem-quickstart-en",
+      "type": "JournalEntry",
+      "system": "totem"
+    }
+  ],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "it", "name": "Italiano", "path": "lang/it.json" }
+  ],
+  "background": "systems/totem/assets/Totem-The-Spirits-RPG-copertina.webp",
+  "media": [
+    {
+      "type": "image",
+      "url": "systems/totem/assets/pause.webp"
+    }
+  ],
+  "url": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG",
+  "manifest": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/system.json",
+  "download": "https://github.com/SweetbloodGM/Totem-The-Spirits-RPG/releases/latest/download/Totem-The-Spirits-RPG-main.zip"
+}
+
+
+
+
+
